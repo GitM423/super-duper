@@ -37,13 +37,17 @@ h1{
     margin: 0;
 }
 
-nav ul li{
-    text-align: right;
-    list-style-type: none;
-    padding: 0 10px 10px;
+ul{
+    padding:  0 20px 30px;
 }
 
-a, h4{
+li{
+    text-align: right;
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+a{
     color: #ccc;
     text-decoration: none;
 }
