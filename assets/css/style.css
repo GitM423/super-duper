@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Maven+Pro&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+section:nth-of-type(1){
+    background-color: #333;
+    background-attachment: fixed; 
+    background-size: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+h4{
+    width: 20px;
+    padding: 10px 10px;
+    margin: 0;
+}
+
+section:nth-of-type(1) article{
+    width: 380px;
+    margin: 10vh auto;
+    background-image: linear-gradient(to bottom left, #3dc8d5 , #8507e1);
+    background-position: fixed;
+    padding: 5px 20px;
+}
+
+h1,h2,h3 {
+    font-family: 'Gilda Display', serif;
+}
+
+h1{
+    font-size: 100px;
+    margin: 0;
+}
+
+nav ul li{
+    text-align: right;
+    list-style-type: none;
+    padding: 0 10px 10px;
+}
+
+a, h4{
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fff;
+}
+
+section:nth-of-type(2){
+    background-image: url(../img/link-background.svg);
+    background-repeat: no-repeat;
+    background-position: 10vw 5vh ;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0 10vw;
+    padding: 15vh 0 5px;
+}
+
+section:nth-of-type(2) p{
+    width: 480px;
+    margin: 0 10vw;
+    padding: 10px 0 10px;
+}
+
+img{
+    width: 65vw;
+    margin: 5vh 15vw 5px;
+    border: 0 solid white;
+    border-radius: 10px;
+}
+
+img:first-of-type{
+    margin-top: 20vh;
+}
+
+h3, h5{
+    text-indent: 15vw;
+    padding: 5px 0;
+}
+
+h3{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 5vh auto 0;
+}
+
+h5{    
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 auto 20vh;
+}
